@@ -1,0 +1,39 @@
+@media only screen and (min-width: 1700px) {
+    .mobile-search-bar{
+        display: none;
+    }
+
+    .mobile-toggler{
+        display: none;
+    }
+
+    .short-nav{
+        margin-left: 9%;
+    }
+
+    .multi-product-box {
+        flex-direction: row;
+        width: 98%;
+        margin: 36px !important;
+      }
+
+    .todays-lowest-deals {
+        max-width: 45%!important;
+    }
+
+    .responsive {
+        padding: 6px;
+        float: left;
+        width: 34%!important;
+        border-radius: 5px;
+        box-shadow: 0 0 10px 2px gray;
+    }
+
+    .ms-gallery {
+        margin-left: 12.2% !important;
+      }
+
+      .ms-gallery {
+        height: 260px;
+      }
+}

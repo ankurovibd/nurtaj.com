@@ -1,0 +1,1731 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Nurtaj</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/mobile-responsive.css">
+  <link rel="stylesheet" href="css/pc-14.css">
+  <link rel="stylesheet" href="css/big-screen.css">
+  <link rel="stylesheet" href="css/event-banner.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <section class="short-nav">
+    <div class="container-fluid">
+      <ul class="d-flex align-items-start">
+        <li><a href="#">Become a Seller</a></li>
+        <li><a href="#">Nurtaj Donates</a></li>
+        <li><a href="#">
+            <div class="dropdown">
+              <span class="dropbtn">Help and support</span>
+              <div class="dropdown-content">
+                <a href="#"><i class="fa-regular fa-comment"></i> Link 1</a>
+                <a href="#"><i class="fa-regular fa-comment"></i> Link 2</a>
+                <a href="#"><i class="fa-regular fa-comment"></i> Link 3</a>
+              </div>
+            </div>
+          </a></li>
+        <li><a href="#">Investment</a></li>
+      </ul>
+    </div>
+  </section>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid d-flex justify-content-between shadow p-3 bg-body-tertiary rounded">
+      <a class="navbar-brand order-0 d-flex justify-content-center w-25" href="#">LOGO
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <section class="mobile-toggler">
+        <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">☰</button>
+      </section>
+
+      <div class="input-group mb-3 w-50 mx-auto rounded-5 shadow">
+        <button
+          class="btn bg-primary-subtle dropdown-toggle rounded-5 position-absolute shadow border border-info search-filter"
+          type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter search</button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="#">Separated link</a></li>
+        </ul>
+        <input type="text" placeholder="Search Product"
+          class="form-control rounded-5 position-relative w-50 ps-5 kanit-regular search"
+          aria-label="Text input with dropdown button">
+        <a href="#" class="search-btn float-end d-flex justify-content-center align-items-center position-absolute"><i
+            class="fa-solid fa-magnifying-glass"></i></a>
+      </div>
+      <div class="collapse navbar-collapse justify-content-evenly col-3 kanit-semibold" id="navbarNavDropdown">
+        <ul class="navbar-nav order-1 justify-content-center col-5">
+          <li class="nav-item ms-2">
+            <a class="nav-link active d-flex justify-content-between align-items-center" aria-current="page" href="#"><i class="fa-solid fa-right-to-bracket"></i> Login</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" aria-current="page" href="#">Sign up</a>
+          </li>
+          <li class="nav-item dropdown ms-2">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">lan
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">EN</a></li>
+              <li><a class="dropdown-item" href="#">BN</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="nav-item d-flex justify-content-center align-items-center order-2 login-box">
+          <a class="nav-link mx-auto ms-2 h-25" href="#"><img class="" src="images/cart.png"></a>
+        </div>
+      </div>
+      
+    </div>
+  </nav>
+
+  <section id="site-navigate">
+    <div class="container">
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Library</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section class="mobile-search-bar">
+    <div class="mobile-search mb-3 mx-auto rounded-5 shadow">
+      <button
+        class="btn bg-primary-subtle dropdown-toggle rounded-5 position-absolute shadow border border-info search-filter-mobile"
+        type="button" data-bs-toggle="dropdown" aria-expanded="false">Filter search</button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+        <li>
+          <hr class="dropdown-divider">
+        </li>
+        <li><a class="dropdown-item" href="#">Separated link</a></li>
+      </ul>
+      <input type="text" placeholder="Search Product"
+        class="form-control rounded-5 position-relative kanit-regular search"
+        aria-label="Text input with dropdown button">
+      <a href="#" class="search-btn float-end d-flex justify-content-center align-items-center position-absolute"><i
+          class="fa-solid fa-magnifying-glass"></i></a>
+    </div>
+  </section>
+
+  <section id="cat-menu">
+    <div class="container d-flex justify-content-evenly mobile-direction">
+      <div
+        class="category d-flex float-start flex-column bg-body-tertiary shadow-lg bg-body-tertiary col-2">
+        <ul class="cat-options d-flex align-items-start justify-content-between flex-column">
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Women's & Girls' Fashion</a>
+            <ul class="dropdown-menu ms-1 roboto-regular">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Health & Beauty</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem, ipsum dolor.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit amet.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem, ipsum dolor.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+          <li class="dropend"><a class="dropdown-toggle roboto-regular" data-bs-toggle="dropdown" aria-expanded="false"
+              href="#"><i class="fa-solid fa-person-dress"></i> Lorem ipsum dolor sit.</a>
+            <ul class="dropdown-menu ms-1">
+              <li><a class="dropdown-item roboto-regular" href="#">Action</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action two</a></li>
+              <li><a class="dropdown-item roboto-regular" href="#">Action three</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div id="carouselExampleAutoplaying" class="carousel slide bor-black-1 shadow m-2 col-8" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://placehold.co/864x450" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/864x450" class="d-block" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://placehold.co/864x450" class="d-block" alt="...">
+          </div>
+        </div>
+      </div>
+      <div class="offer max-width-25 bg-body-tertiary rounded border-success-1 w-25 scroll shadow-lg p-3 m-2 col-2">
+        <div class="d-flex justify-content-between align-items-center flex-column offer-inner">
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+          <a href="#" class="shadow rounded-3 mb-4"><img class="w-100 p-1 h-1 mb-1 rounded-3 shadow"
+              src="https://placehold.co/350x200" alt=""></a>
+        </div>
+      </div>
+  </section>
+
+  <section class="d-cat">
+    <div class="container-fluid">
+      <p class="roboto-regular d-cat-title">Categories</p>
+      <div class="cat-box d-flex flex-column align-items-center">
+        <div class="cat-box-1 d-flex justify-content-evenly align-items-center">
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+        </div>
+        <div class="cat-box-2 d-flex justify-content-evenly align-items-center">
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+          <div class="d-flex flex-column justify-content-around align-items-center product-box">
+            <img src="https://placehold.co/80x80/000000/FFF" alt="">
+            <p class="roboto-regular">Category name</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container-fluid">
+      <div class="event-banner d-flex flex-column justify-content-evenly align-items-center">
+        <span>Upcoming Events</span>
+        <div class="even-card d-flex justify-content-evenly align-items-center">
+          <div class="card">
+            <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <!-- <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="#" class="btn btn-primary ">Hou</a>
+              <a href="#" class="btn btn-primary">Min</a>
+              <a href="#" class="btn btn-primary">Sec</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <!-- <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="#" class="btn btn-primary ">Hou</a>
+              <a href="#" class="btn btn-primary ">Min</a>
+              <a href="#" class="btn btn-primary ">Sec</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <!-- <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="#" class="btn btn-primary">Hou</a>
+              <a href="#" class="btn btn-primary ">Min</a>
+              <a href="#" class="btn btn-primary">Sec</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <!-- <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="#" class="btn btn-primary ">Hou</a>
+              <a href="#" class="btn btn-primary ">Min</a>
+              <a href="#" class="btn btn-primary ">Sec</a>
+            </div>
+          </div>
+          <div class="card">
+            <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+            <div class="card-body d-flex justify-content-between align-items-center">
+              <!-- <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+              <a href="#" class="btn btn-primary ">Hou</a>
+              <a href="#" class="btn btn-primary">Min</a>
+              <a href="#" class="btn btn-primary ">Sec</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="mobile-event">
+    <div class="gallery-container">
+      <div class="thumbnails">Upcoming Events</div>
+      <div class="slides">
+        <div class="card">
+          <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn btn-primary">Hou</a>
+            <a href="#" class="btn btn-primary">Min</a>
+            <a href="#" class="btn btn-primary">Sec</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn btn-primary">Hou</a>
+            <a href="#" class="btn btn-primary">Min</a>
+            <a href="#" class="btn btn-primary">Sec</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn btn-primary">Hou</a>
+            <a href="#" class="btn btn-primary">Min</a>
+            <a href="#" class="btn btn-primary">Sec</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn btn-primary">Hou</a>
+            <a href="#" class="btn btn-primary">Min</a>
+            <a href="#" class="btn btn-primary">Sec</a>
+          </div>
+        </div>
+        <div class="card">
+          <img src="https://placehold.jp/150x150.png" class="card-img-top" alt="...">
+          <div class="card-body d-flex justify-content-between align-items-center">
+            <!-- <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <a href="#" class="btn btn-primary">Hour</a>
+            <a href="#" class="btn btn-primary">Min</a>
+            <a href="#" class="btn btn-primary">Sec</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="multi-product-item">
+    <div class="container-fluid">
+      <div class="multi-product-box d-flex justify-content-around align-items-center m-3">
+        <div class="todays-lowest-deals">
+          <h4>Todays Lowest Deals</h4>
+
+          <div class="responsive ms-gallery">
+            <div class="gallery">
+              <a target="_blank" href="https://placehold.jp/150x150.png">
+                <img src="https://placehold.jp/100x100.png" alt="Cinque Terre" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+
+          <div class="responsive ms-gallery">
+            <div class="gallery">
+              <a target="_blank" href="https://placehold.jp/150x150.png">
+                <img src="https://placehold.jp/100x100.png" alt="Forest" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+          <div class="responsive ms-gallery">
+            <div class="gallery">
+              <a target="_blank" href="img_lights.jpg">
+                <img src="https://placehold.jp/100x100.png" alt="Northern Lights" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+
+          <div class="responsive ms-gallery">
+            <div class="gallery">
+              <a target="_blank" href="img_mountains.jpg">
+                <img src="https://placehold.jp/100x100.png" alt="Mountains" width="600" height="400">
+              </a>
+              <div class="desc">Add a description of the image here</div>
+            </div>
+          </div>
+        </div>
+        <div class="two-deals d-flex flex-column justify-content-between align-items-center">
+          <div
+            class="limited-deals m-3 h-50 d-flex align-items-center justify-content-between flex-column position-relative">
+            <h4 class="">Limited Time Deals</h4>
+            <div class="limited-card d-flex justify-content-evenly align-items-center">
+              <img class="limited-img" src="https://placehold.jp/150x150.png" alt="">
+              <div class="w-50 card-details">
+                <p class="w-75 text-align-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <h5 class="fw-bold">BDT 5,100.00</h5>
+                <span class="fw-bold text-blur">MRP <del class="del-color fw-bold">5,999</del></span>
+              </div>
+            </div>
+            <span class="more-limited-deals clearfix position-absolute">More Deals</span>
+          </div>
+
+          <div class="top-selling h-50 m-3 d-flex align-items-center justify-content-evenly flex-column">
+            <span class="top-selling-title">Top Selling Items</span>
+            <div class="top-selling-scroll">
+              <logo-slider>
+                <div>
+                  <img src="https://picsum.photos/100">
+                  <img src="https://picsum.photos/102">
+                  <img src="https://picsum.photos/103">
+                  <img src="https://picsum.photos/104">
+                  <img src="https://picsum.photos/105">
+                  <img src="https://picsum.photos/106">
+                  <img src="https://picsum.photos/107">
+                  <img src="https://picsum.photos/108">
+                </div>
+                <div>
+                  <img src="https://picsum.photos/100">
+                  <img src="https://picsum.photos/102">
+                  <img src="https://picsum.photos/103">
+                  <img src="https://picsum.photos/104">
+                  <img src="https://picsum.photos/105">
+                  <img src="https://picsum.photos/106">
+                  <img src="https://picsum.photos/107">
+                  <img src="https://picsum.photos/108">
+                </div>
+              </logo-slider>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="flash_sales">
+    <div id="mz-gallery-container">
+      <h4 class="">Flash Sales</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="flash_sales">
+    <div id="mz-gallery-container">
+      <h4 class="">Tranding Products</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="free_delivery">
+    <div id="mz-gallery-container">
+      <h4 class="">Free Delivery</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="buy_1_get_1">
+    <div id="mz-gallery-container">
+      <h4 class="">Buy 1 Get 1</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="just_for_you">
+    <div id="mz-gallery-container">
+      <h4 class="">Just for you</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="top_selling_brand">
+    <div id="mz-gallery-container">
+      <h4 class="">Top Selling Brand</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="top_seller">
+    <div id="mz-gallery-container">
+      <h4 class="">Top Seller</h4>
+      <div id="mz-gallery">
+        <figure>
+          <img src="https://picsum.photos/id/818/700/700" alt="Statue of Liberty" width="700" height="700">
+          <figcaption>Statue of Liberty</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/537/700/700" alt="Night Sky" width="700" height="700">
+          <figcaption>Night Sky</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/136/700/700" alt="Ravine Between Rocks" width="700" height="700">
+          <figcaption>Ravine Between Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/337/700/700" alt="Wheat Farm" width="700" height="700">
+          <figcaption>Wheat Farm</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/737/700/700" alt="City Street" width="700" height="700">
+          <figcaption>City Street</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/217/700/700" alt="Crumbling Pier" width="700" height="700">
+          <figcaption>Crumbling Pier</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/416/700/700" alt="Foggy Mountains" width="700" height="700">
+          <figcaption>Foggy Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/811/700/700" alt="Dense Forest" width="700" height="700">
+          <figcaption>Dense Forest</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/902/700/700" alt="Sunset Over Mountains" width="700" height="700">
+          <figcaption>Sunset Over Mountains</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/514/700/700" alt="SUV in Front of Building" width="700" height="700">
+          <figcaption>SUV in Front of Building</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/111/700/700" alt="Classic Vehicle" width="700" height="700">
+          <figcaption>Classic Vehicle</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/168/700/700" alt="Stacked Rocks" width="700" height="700">
+          <figcaption>Stacked Rocks</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/210/700/700" alt="Brick Wall" width="700" height="700">
+          <figcaption>Brick Wall</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/270/700/700" alt="Waterfront" width="700" height="700">
+          <figcaption>Waterfront</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/315/700/700" alt="Overgrown Buildings" width="700" height="700">
+          <figcaption>Overgrown Buildings</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/562/700/700" alt="Dying Trees" width="700" height="700">
+          <figcaption>Dying Trees</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+    
+        <figure>
+          <img src="https://picsum.photos/id/385/700/700" alt="Ocean View" width="700" height="700">
+          <figcaption>Ocean View</figcaption>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-div kanit-medium d-flex justify-content-evenly align-items-center">
+        <div class="footer-logo p-2 kanit-medium w-25 d-flex flex-column justify-content-evenly align-items-start">
+          <div class="f-logo"><a href="#">Logo</a></div>
+          <div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, ad cum. Reprehenderit inventore
+              accusamus illo.</p>
+          </div>
+          <div>
+            <p>Follow us: </p>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="w-25 p-2 footer-contact kanit-medium">
+          <h5 class="f-logo footer-title">Contact us</h5>
+          <p>58/10, Nurtaj, পান্থপথ, <br>Free School St, 1205</p>
+          <a href="mailto:info@nurtaj.com">Email: info@nurtaj.com</a>
+        </div>
+        <div class="w-25 d-flex footer-help flex-column justify-content-around align-items-start kanit-medium">
+          <h5 class="f-logo kanit-medium footer-help-title">Let us help you.</h5>
+          <ul class="kanit-regular d-flex flex-column align-items-start justify-content-around">
+            <li><a href="#">Your Account</a></li>
+            <li><a href="#">Your Order</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Return & Refund Policy</a></li>
+            <li><a href="#">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="w-25 app kanit-medium">
+          <h5 class="f-logo kanit-medium">Get Nurtaj App</h5>
+          <a href="#"><img src="images/store.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <section id="copyright">
+    <div class="container">
+      <p class="kanit-regular">&#169; 2024 Nurtaj.com Group. All rights reserved.</p>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+  <script src="js/event-banner.js"></script>
+  <script src="js/mobile-toggler.js"></script>
+  <script src="js/cat-slider.js"></script>
+</body>
+
+</html>

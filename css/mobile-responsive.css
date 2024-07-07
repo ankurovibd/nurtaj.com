@@ -1,0 +1,192 @@
+/* Mobile Screen */
+
+@media only screen and (max-width: 412px) {
+  nav{
+    width: 97%;
+    margin: auto;
+  }
+  #site-navigate{
+    display: none;
+    
+  }
+  /* #cat-menu{
+    display: none;
+    overflow: hidden;
+  } */
+    .category{
+      display: none;
+      opacity: 0;
+    }
+
+    .category>span{
+      display: none;
+      opacity: 0;
+    }
+    .cat-options{
+      display: none!important;
+      overflow: hidden;
+
+    }
+
+    .fa-magnifying-glass{
+      margin-left: 21%;
+    }
+    .dropend{
+      display: none;
+      overflow: hidden;
+    }
+
+    .mobile-direction{
+      flex-direction: column;
+    }
+
+    .carousel{
+      width: 96%;
+      height: 200px!important;
+    }
+
+    .carousel-inner {
+      width: 100%;
+      height: 100%;
+    }
+
+    .carousel-inner img{
+      width: 400px;
+      height: 200px;
+    }
+
+    .offer{
+      max-width: 100%!important;
+      width: 96%!important;
+    }
+
+    .offer-inner{
+      max-width: 100%;
+      display: flex!important;
+      flex-direction: row!important;
+    }
+
+    .offer-inner a{
+      margin-bottom: 0!important;
+      width: 120px!important;
+      height: 70px!important;
+      margin-right: 10px;
+    }
+
+    .offer-inner a img{
+      width: 120px!important;
+    }
+
+    .offer.scroll{
+      overflow-x: auto!important;
+      overflow-y: hidden!important;
+    }
+
+    #v-cat{
+      max-height: 150px !important;
+      width: 90.2%;
+      margin-left: 5%;
+      border-radius: 5px;
+    }
+
+    .slider{
+      max-width: 100%!important;
+      height: 150px!important;
+      top: -65px;
+    }
+
+    .cat-slide{
+      width: 120px!important;
+      height: 120px!important;
+    }
+
+    .cat-slide img{
+      width: 120px!important;
+      height: 120px!important;
+      cursor: pointer;
+    }
+
+    #events{
+      display: none;
+    }
+
+    .todays-lowest-deals{
+      width: 100%;
+    }
+
+    #multi-product-item{
+      background-color: #dddddd;
+    }
+
+
+    .limited-deals{
+      width: 100%;
+    }
+
+    .limited-card{
+      height: 203px;
+      width: 94%!important;
+    }
+
+    .limited-img{
+      width: 150px;
+      height: 150px;
+    }
+
+    .card-details{
+      margin-left: 6%;
+      height: 75%;
+      font-size: 13px;
+    }
+
+    .card-details h5{
+      font-size: 0.9rem;
+    }
+
+    .two-deals{
+      background-color: #dddddd;
+      width: 100%!important;
+    }
+
+    .top-selling{
+      width: 106%!important;
+    }
+
+    .top-selling-scroll {
+      max-width: 96%!important;
+    }
+
+    logo-slider img{
+      cursor: pointer;
+    }
+
+    #footer{
+      width: 100%;
+    }
+
+    .footer-div{
+      flex-direction: column;
+    }
+
+    .footer-logo{
+      width: 80%!important;
+    }
+
+    .footer-contact{
+      width: 80%!important;
+    }
+
+    .footer-help{
+      width: 80%!important;
+    }
+
+    .app{
+      width: 80%!important;
+    }
+
+    .mobile-search-bar .search-btn{
+      display: initial!important;
+    }
+  }
+
+/* Mobile Scree Ends */

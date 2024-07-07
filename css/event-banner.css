@@ -1,0 +1,83 @@
+@media only screen and (max-width: 412px) {
+    #mobile-event{
+        display: block!important;
+        width: 90%;
+        margin: auto;
+    }
+
+    .mobile-event-title{
+        z-index: 999;
+    }
+    .gallery-container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .thumbnails {
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+      .card{
+        width: 15rem!important;
+      }
+
+      .card-body{
+        width: 239px;
+        box-sizing: border-box;
+        display: inline-block;
+      }
+
+      .card-body a{
+        margin: -0.5rem;
+      }
+      
+      .thumbnails div {
+        width: 8px;
+        height: 8px;
+        cursor: pointer;
+        background: #aaa;
+        border-radius: 100%;
+      }
+      
+      .thumbnails div.highlighted {
+        background-color: #777;
+      }
+      
+      .slides {
+        margin: auto;
+        display: grid;
+        grid-auto-flow: column;
+        width: 400px;
+        height: 369px;
+        overflow-y: auto;
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        margin-top: 11%;
+      }
+      
+      .slides > div {
+        height: 300px;
+        border: 1px solid gray;
+        scroll-snap-align: start;
+
+      }
+      
+      .slides img {
+        margin: auto;
+        width: 240px;
+        height: 220px;
+        object-fit: contain;
+        margin-top: 1%;
+        border-radius: 5px;
+      }
+      
+      .slides::-webkit-scrollbar {
+        display: none;
+      }
+}

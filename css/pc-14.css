@@ -1,0 +1,9 @@
+@media only screen and (max-width: 1367px) {
+    logo-slider { 
+        width: 87%;
+      }
+      
+      .top-selling-scroll {
+        max-width: 97%!important;
+      }
+}
